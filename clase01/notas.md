@@ -60,12 +60,32 @@ Igual que el comando anterior pero este agrega contenido al archivo. Si el archi
 $ echo "Hola" >> mensaje.txt
 
 $ cat mensaje.txt
-Hola
+  Hola
 
 $ echo "Adiós" >> mensaje.txt
 
 $ cat mensaje.txt
-Hola
-Adiós
+  Hola
+  Adiós
 ```
 
+
+
+Temas:
+
+Introducción JavaScript
+- ¿Qué es JavaScript y qué es EcmaScript?
+
+Comandos básicos para Unix (bash)
+
+Comandos básico para usar Git y Github en clase
+
+Un vistazo sobre JavaScript: ES5  vs ES6
+
+Convenciones de código para JavaScript (ES6+)
+https://github.com/airbnb/javascript
+
+Libros recomendados
+?
+
+medium.com
