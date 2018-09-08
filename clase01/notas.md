@@ -1,5 +1,10 @@
 #### ls
-listar archivos
+listar archivos y carpetas
 
-ls -a
-mkdir
+#### ls -a
+listar archivos y carpetas, y archivos ocultos
+
+#### mkdir
+crea carpeta
+
+
