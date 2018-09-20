@@ -15,5 +15,5 @@ Temas:
 
 - [Variables](./docs/js-variables.md).
 - [Tipos de Datos](./docs/js-tipos-de-datos.md).
-- [Funciones: Introducción](./docs/js-funciones.md)
+- [Funciones: Introducción](./docs/js-funciones.md).
 

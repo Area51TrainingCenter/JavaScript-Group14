@@ -9,7 +9,7 @@ Al abrir una **Terminal** podremos ejecutar comandos. Estos comandos son interpr
 El estándar es usar **bash**. En el caso de Windows podemos usarlo si previamente instalamos [Git](https://git-scm.com/), entonces buscamos el ejecutable **Git Bash** y nos abrirá una Terminal una emulación de bash muy completa.
 
 
-##Comandos básicos
+## Comandos básicos
 
 ### ls
 listar archivos y carpetas
