@@ -1,0 +1,22 @@
+{
+  "empleados": [
+    {
+      "id": 1,
+      "nombre": "Diana",
+      "apellido": "Lopez",
+      "email": "dlopez@gmail.com"
+    },
+    {
+      "id": 2,
+      "nombre": "Pedro",
+      "apellido": "Ruiz",
+      "email": "pruiz@gmail.com"
+    },
+    {
+      "id": 3,
+      "nombre": "Anahi",
+      "apellido": "Suarez",
+      "email": "asuarez@gmail.com"
+    }
+  ]
+}
