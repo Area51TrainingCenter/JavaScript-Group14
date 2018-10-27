@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>json-server + axios</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .container {
+      display: flex;
+      margin-top: 20px;
+    }
+
+    .list {
+      border: 1px solid #000;
+      height: 200px;
+      width: 150px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+
+    .controls {
+      display: flex;
+      flex-direction: column;
+      width: 50px;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>json-server + axios</h1>
+
+  <div>
+    <input id="frase-txt" type="text">
+    <button id="agregar-btn">Agregar</button>
+  </div>
+
+  <div class="container">
+    <div id="lista1" class="list">
+      <!--
+        <div>Palabra 1</div>
+        <div>Palabra 2</div>
+        <div>Palabra 3</div>
+      -->
+    </div>
+
+    <div class="controls">
+      <button id="mover-a-derecha">&gt;</button>
+      <button id="mover-a-izquierda">&lt;</button>
+    </div>
+
+    <div id="lista2" class="list"></div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

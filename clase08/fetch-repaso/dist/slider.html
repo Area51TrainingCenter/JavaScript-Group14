@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Fetch - Repaso</title>
+
+  <style>
+    .slider__body {
+      position: relative;
+      height: 150px;
+      width: 150px;
+      border: 1px solid #000;
+    }
+    .slider__item {
+      background: #00d0ff;
+      display: none;
+      line-height: 0;
+    }
+
+    .slider__item,
+    .slider__index {
+      height: 100%;
+      width: 100%;
+
+      position: absolute;
+      top: 0;
+      left: 0;
+      text-align: center;
+    }
+
+    .slider__index {
+      font-size: 24px;
+      font-weight: bold;
+      color: #000;
+      z-index: 2;
+      line-height: 1em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Fetch</h1>
+  <small id="loading">Loading...</small>
+
+
+  <div class="slider">
+    <div class="slider__controls">
+      <button id="slider-prev">&lt;</button>
+      <button id="slider-next">&gt;</button>
+    </div>
+    <div class="slider__body">
+      <!-- <div class="slider__item"></div> -->
+    </div>
+  </div>
+
+  <div id="output"></div>
+
+  <template id="tpl-slider__item">
+    <div class="slider__item">
+      <div class="slider__index"></div>
+      <img src="" alt="">
+    </div>
+  </template>
+
+  <script src="main.js"></script>
+</body>
+</html>
